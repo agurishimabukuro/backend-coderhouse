@@ -1,0 +1,17 @@
+<h2>Bienvenido a la página de inicio</h2>
+    {{#if status}}
+        <h4>Te logeaste con éxito 😎</h4>
+        <p>Para que disfrutes tu estadía en el sitio 🤘</p>
+        
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe width="853" height="480" 
+                src="https://www.youtube.com/embed/6xjJ2XIbGRk" 
+                title="Metallica: Master of Puppets (Official Lyric Video)" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            </iframe> 
+        </div>
+    
+    {{else}}
+        <h4>Oops! Ha habido una falla en el logeo! 😲</h4>
+    {{/if}}
