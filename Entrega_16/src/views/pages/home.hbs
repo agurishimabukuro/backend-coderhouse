@@ -1,0 +1,17 @@
+<h2>Bienvenido.</h2>
+    {{#if status}}
+        <h4>Te loggeaste con éxito! 😎</h4>
+        <p>Te dejo este videito de paren la mano! </p>
+        
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe width="560" height="315" 
+            src="https://www.youtube.com/embed/YJbKaLKz2rw" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            </iframe> 
+        </div>
+    
+    {{else}}
+        <h4>Oops! Parece que no pudiste ingresar! 😲</h4>
+    {{/if}}
