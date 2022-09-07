@@ -56,7 +56,7 @@ app.use('/test', otherRouter);
 
 app.all("*", (_req, res) => {
     res.status(404).json({"error": "ruta no existente"})
-  });
+});
 
 /* --------------- Leer el puerto por consola o setear default -------------- */
 
