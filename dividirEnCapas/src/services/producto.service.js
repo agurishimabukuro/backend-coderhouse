@@ -1,8 +1,8 @@
-import "../config/db.js";
+import "../configs/db.config";
 import { ProductosModel } from "../modelos/productos.modules";
-import logger from "../loggers/Log4jsLogger.js";
+import logger from "../utils/loggers/Log4jsLogger";
 
-export class ProductoDao {
+export class ProductoService {
 
     ID_FIELD = "_id";
     
