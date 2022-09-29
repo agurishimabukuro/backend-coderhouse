@@ -1,6 +1,6 @@
-import "../configs/db.config";
-import { UsuariosModel } from "../modelos/usuarios.models";
-import logger from "../loggers/Log4jsLogger.js";
+import "../configs/db.config.js";
+import { UsuariosModel } from "../modelos/usuarios.models.js";
+import logger from "../utils/loggers/Log4jsLogger.js";
 
 export class UsuarioService {
 

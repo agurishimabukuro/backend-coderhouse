@@ -1,4 +1,4 @@
-import { CarritosModel } from '../modelos/carritos.models';
+import { CarritosModel } from '../modelos/carritos.models.js';
 import {BaseDao} from "./BaseDao.js";
 import {ProductoService} from "./producto.service.js";
 

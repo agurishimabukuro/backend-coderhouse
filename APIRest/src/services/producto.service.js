@@ -1,4 +1,4 @@
-import { ProductosModel } from "../modelos/productos.models";
+import { ProductosModel } from "../modelos/productos.models.js";
 import {BaseDao} from "./BaseDao.js";
 
 export class ProductoService extends BaseDao{
