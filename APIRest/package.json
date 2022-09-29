@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "server": "nodemon --inspect ./src/server.js -p 3031",
     "test": "jest",
